@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:layout_marginTop="10dp"
+    >
+
+    <com.wajahatkarim3.easyflipview.EasyFlipView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:flipOnTouch="true"
+        app:flipEnabled="true"
+        app:flipDuration="400"
+
+        android:paddingBottom="15dp"
+        android:id="@+id/flipview"
+        android:background="@android:color/white"
+        android:layout_marginTop="10dp"
+
+        app:flipType="horizontal"
+        >
+
+        <!-- Back Layout Goes Here -->
+        <include layout="@layout/flash_card_layout_back"/>
+
+        <!-- Front Layout Goes Here -->
+        <include layout="@layout/flash_card_layout_front"/>
+
+
+    </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="10dp"
+>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/fab"
+            android:backgroundTint="@color/primary_dark"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true" />
+        <com.github.fabtransitionactivity.SheetLayout
+            android:id="@+id/bottom_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            app:ft_container_gravity="center"
+            app:ft_color="@color/primary"
+            android:elevation="2dp"/>
+    </RelativeLayout>
+
+    </RelativeLayout>

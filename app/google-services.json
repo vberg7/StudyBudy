@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "508907041420",
+    "firebase_url": "https://test-c980b.firebaseio.com",
+    "project_id": "test-c980b",
+    "storage_bucket": "test-c980b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508907041420:android:07e4a9941630b45b",
+        "android_client_info": {
+          "package_name": "codespace.mehakmeet.studybudy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508907041420-chu87nao1hukuvci6vkagepfah2fnske.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "codespace.mehakmeet.studybudy",
+            "certificate_hash": "c97a45f99a09b2e4232bd945e34218e495142d39"
+          }
+        },
+        {
+          "client_id": "508907041420-h5kt49pe18v06u0ftbr5dgi2d0ffrhbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtQsjGOWNnmhbbTtESpxVL8j9jdYiC4SY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508907041420-h5kt49pe18v06u0ftbr5dgi2d0ffrhbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
